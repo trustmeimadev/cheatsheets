@@ -128,6 +128,13 @@ SELECT name,
 FROM people;
 ```
 
+## EXTRA FUNCTION
+```sql
+RIGHT(string, number_of_characters)
+STUFF(string, start, length, replacement_string)
+
+```
+
 ## ⚠️ **IMPORTANT NOTES**
 1. **Syntax varies** between databases (MySQL, PostgreSQL, SQL Server, Oracle)
 2. **Not all functions** work in every database
