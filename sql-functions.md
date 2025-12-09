@@ -58,6 +58,10 @@ SELECT name, salary,
        ROW_NUMBER() OVER (ORDER BY salary DESC) 
 FROM employees;
 
+SELECT name, salary, 
+       ROW_NUMBER() OVER (PARTITION BY salary_id ORDER BY salary DESC) 
+FROM employees;
+
 SELECT name, salary,
        RANK() OVER (ORDER BY salary DESC)
 FROM employees;
