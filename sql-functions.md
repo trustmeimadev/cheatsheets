@@ -131,6 +131,7 @@ FROM people;
 ## EXTRA FUNCTION
 ```sql
 RIGHT(string, number_of_characters)
+LEFT(string, number_of_characters)
 STUFF(string, start, length, replacement_string)
 
 ```
